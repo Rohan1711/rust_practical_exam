@@ -1,0 +1,32 @@
+1) Write a Rust Program that implements control
+structures (if-else). 
+
+fn main() {
+    let number = 10;
+
+    if number % 2 ==0 {
+        println!("Number is even");
+    }else {
+        println!("Number is odd");
+    }
+}
+
+output :
+
+PS C:\Users\UnboxIt\Desktop\rust_practical_exam> ls
+
+    Directory: C:\Users\UnboxIt\Desktop\rust_practical_exam
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----            6/3/2024 12:18 PM                rust_practical_exam
+-a---            6/3/2024 12:20 PM              0 note.txt
+
+PS C:\Users\UnboxIt\Desktop\rust_practical_exam> cd .\rust_practical_exam\
+PS C:\Users\UnboxIt\Desktop\rust_practical_exam\rust_practical_exam> cargo build
+   Compiling rust_practical_exam v0.1.0 (C:\Users\UnboxIt\Desktop\rust_practical_exam\rust_practical_exam)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.41s
+PS C:\Users\UnboxIt\Desktop\rust_practical_exam\rust_practical_exam> cargo run
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target\debug\rust_practical_exam.exe`
+Number is even
